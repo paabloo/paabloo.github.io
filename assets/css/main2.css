@@ -1,0 +1,66 @@
+@import "bootstrap.css";
+/*@import "bootstrap-theme.css";*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background: black;
+  }
+  .wrap {
+    width: 100%;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    background: grey;
+  }
+  .wrap {
+    width: 90%;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  body {
+    background: gold;
+  }
+  .wrap {
+    width: 75%;
+  }
+}
+header {
+  background: #553d7c;
+  height: 50px;
+  padding-top: 14px;
+  color: #cdbfd2;
+}
+.wrap {
+  margin: 0 auto;
+  background: yellow;
+}
+#logo {
+  color: #fff;
+  background: url("../images/testico.png") no-repeat;
+  height: 40px;
+  width: 130px;
+  text-align: right;
+  font-weight: bold;
+}
+.settings {
+  margin: -1px 10px 0;
+}
+.currency_pick {
+  margin: -6px 0 0 5px;
+}
+.currency_pick .btn-group .dropdown-menu {
+  min-width: 70px;
+}
+.currency_pick .btn-group .dropdown-menu li a:hover {
+  background: #408ac8;
+  color: #fff;
+}
+#jeden {
+  background: green;
+}
+#dwa {
+  background: red;
+}
