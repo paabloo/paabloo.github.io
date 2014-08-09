@@ -1,9 +1,14 @@
 @import 'bootstrap.css';
+@import 'bootstrap-theme.css';
 
 header{
   background: #553d7c;
   min-height: 50px;
   padding-top: 14px;
+}
+
+.alerts-box{
+  margin-top: 10px;
 }
 
 #logo{
